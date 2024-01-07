@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-a-Sketch</title>
+    <script src="chat.js" defer></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<div id="container"></div> 
+<div class="sliders">
+    <input id="color" type="color" value="#85C78C">
+    <div class="gridSlider">
+    <p id="gridValue" style="margin: auto;"> 36 x 36</p>
+    <input type="range" min="8" max="64" id="gridSlider">
+    </div>
+    <div class="buttons">
+    <button id="eraser">Eraser</button>
+    <button id="reset">Reset</button>
+    </div> 
+    <div class="toggleMenu">
+        <p style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+        'Lucida Sans Unicode', Geneva, Verdana, sans-serif; margin-top: 5px;">Show grid</p>
+        <label class="switch">
+        <input type="checkbox" id="gridToggle"></input>
+        <span class="sliderRound"></span>
+        </label>
+    </div>
+</div>   
+</body>
+</html>
